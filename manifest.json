@@ -1,0 +1,17 @@
+{
+    "name": "bugapp.username",
+    "description": "description of Bugapp",
+    "architecture": "all",
+    "title": "Bugapp",
+    "hooks": {
+        "app": {
+            "apparmor": "app.apparmor",
+            "desktop":  "app.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Firstname Surname <your@mail.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
